@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.heading {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #333;
+	border-bottom: 2px solid #333;
+	padding-bottom: 5px;
+	line-height: 1; /* Adjust line height for better spacing */
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif; /* Ensure you are using the correct font */
+  }
+  
+.switch-field {
+	display: flex;
+	margin-bottom: 20px; /* Reduced margin */
+	overflow: hidden;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 12px; /* Reduced font size */
+	line-height: 1;
+	text-align: center;
+	padding: 6px 12px; /* Reduced padding */
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: #a5dc86;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+
+.form {
+	max-width: 220px; /* Reduced form width */
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	font-weight: normal;
+	line-height: 1.625;
+	margin: 8px auto;
+	padding-left: 10px; /* Reduced padding */
+	padding-right: 10px;
+	z-index: 2;
+}
+
+h2 {
+	font-size: 16px; /* Reduced font size */
+	margin-bottom: 6px;
+}
+
+h1 {
+	font-size: 20px; /* Reduced heading size */
+	text-align: center;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+.area, .location, .submit, .result {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%; /* Adjusted input width to match the form size */
+  border: 0;
+  margin: 0 0 8px; /* Reduced margin */
+  padding: 8px; /* Reduced padding */
+  box-sizing: border-box;
+  font-size: 13px; /* Reduced font size */
+  height: 40px; /* Reduced height */
+  border-radius: 5px;
+}
+
+.submit, .result {
+  background: #a5dc86;
+  width: 100%; /* Full width inside the form */
+  margin: 20px 0 10px; /* Adjusted margin */
+  height: 30px; /* Reduced button height */
+  text-align: center;
+}
+
+.result {
+	background: #dcd686;
+	text-align: center;
+	width: 100%; /* Full width within the form */
+	height: 30px; /* Set height */
+	border-radius: 5px;
+	display: flex; /* Flexbox for centering */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	font-size: 13px;
+}
+  
+.img {
+  background: url('https://www.birlatrimayaa.in/images/birla/why-is-investing-in-north-bangalore-worth.webp');
+  background-size: cover;
+  filter: blur(7px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.form-box {
+	background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+	padding: 15px; /* Reduced padding */
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	margin: 30px auto; /* Reduced margin */
+	width: 320px; /* Reduced form container width */
+	z-index: 1;
+}
+
+/* Added class to ensure estimate price visibility and alignment */
+.estimate-price {
+	background: #dcd686;
+	margin: 15px 0 10px;
+	width: 100%; /* Full width within the form */
+	height: 30px; /* Set height */
+	border-radius: 5px;
+	display: flex; /* Use flexbox to align content */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	font-size: 13px;
+	text-align: center;
+}
