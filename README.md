@@ -1,4 +1,5 @@
 Bengaluru Home Value Explorer Project
+
 Project Overview
 This project focuses on predicting home prices in Bangalore using a machine learning model built with Scikit-learn. By leveraging a dataset from Kaggle, the project entails data preprocessing, exploratory data analysis, feature engineering, model training, and deployment via a Flask server. Users can easily input property features through a web interface to obtain real-time price predictions.
 
